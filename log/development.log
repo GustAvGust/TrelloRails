@@ -13361,3 +13361,864 @@ Processing by ListsController#index as HTML
 Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.5ms | Allocations: 5420)
 
 
+Started GET "/" for ::1 at 2021-02-05 21:16:57 +0300
+  [1m[35m (33.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 48.5ms | Allocations: 8843)
+  Rendered application/_header.html.slim (Duration: 1.9ms | Allocations: 2473)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 543ms (Views: 480.8ms | ActiveRecord: 0.0ms | Allocations: 54302)
+
+
+Started GET "/" for ::1 at 2021-02-05 21:17:08 +0300
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 0.1ms | Allocations: 5)
+  Rendered application/_header.html.slim (Duration: 0.2ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3614)
+
+
+Started GET "/" for ::1 at 2021-02-05 21:17:11 +0300
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 0.0ms | Allocations: 5)
+  Rendered application/_header.html.slim (Duration: 0.3ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 3625)
+
+
+Started GET "/" for ::1 at 2021-02-05 21:17:13 +0300
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 0.1ms | Allocations: 5)
+  Rendered application/_header.html.slim (Duration: 0.4ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 3615)
+
+
+Started GET "/" for ::1 at 2021-02-05 21:17:16 +0300
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 0.1ms | Allocations: 4)
+  Rendered application/_header.html.slim (Duration: 0.2ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 3604)
+
+
+Started GET "/lists" for ::1 at 2021-02-05 21:17:20 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.slim within layouts/lists
+  [1m[36mList Load (77.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE (created_at > '2021-01-05')[0m
+  ↳ app/views/lists/index.html.slim:7
+  Rendered lists/index.html.slim within layouts/lists (Duration: 109.6ms | Allocations: 4674)
+  Rendered application/_header.html.slim (Duration: 0.3ms | Allocations: 68)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 184ms (Views: 36.4ms | ActiveRecord: 96.3ms | Allocations: 13871)
+
+
+Started GET "/lists" for ::1 at 2021-02-05 21:17:24 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.slim within layouts/lists
+  [1m[36mList Load (0.6ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE (created_at > '2021-01-05')[0m
+  ↳ app/views/lists/index.html.slim:7
+  Rendered lists/index.html.slim within layouts/lists (Duration: 3.5ms | Allocations: 675)
+  Rendered application/_header.html.slim (Duration: 0.2ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 10.9ms | ActiveRecord: 0.6ms | Allocations: 4424)
+
+
+Started GET "/" for ::1 at 2021-02-05 21:17:42 +0300
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 0.0ms | Allocations: 4)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 77)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 3629)
+
+
+Started GET "/" for ::1 at 2021-02-05 21:27:24 +0300
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 0.0ms | Allocations: 4)
+  Rendered application/_header.html.slim (Duration: 0.2ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3598)
+
+
+Started GET "/lists" for ::1 at 2021-02-05 21:27:26 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.slim within layouts/lists
+  [1m[36mList Load (0.5ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE (created_at > '2021-01-05')[0m
+  ↳ app/views/lists/index.html.slim:7
+  Rendered lists/index.html.slim within layouts/lists (Duration: 2.0ms | Allocations: 740)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.5ms | Allocations: 4470)
+
+
+Started GET "/lists/new" for ::1 at 2021-02-05 21:27:28 +0300
+Processing by ListsController#new as HTML
+  Rendering lists/new.html.slim within layouts/lists
+  Rendered lists/_form.html.slim (Duration: 127.1ms | Allocations: 7303)
+  Rendered lists/new.html.slim within layouts/lists (Duration: 132.8ms | Allocations: 9375)
+  Rendered application/_header.html.slim (Duration: 0.3ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 205ms (Views: 144.9ms | ActiveRecord: 46.0ms | Allocations: 15157)
+
+
+Started POST "/lists" for ::1 at 2021-02-05 21:27:51 +0300
+Processing by ListsController#create as HTML
+  Parameters: {"authenticity_token"=>"EoLXd0gnXWJX+95ZLu1qZzTu8zwFJ/5Am904J2FzIhswqLrCtRT4aWPwzuwSqfF5xvsR5WvIJEdaYlmTAa7vdg==", "list"=>{"header"=>"Cook Work"}, "commit"=>"Create List"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/lists_controller.rb:22:in `create'
+  [1m[36mList Create (70.9ms)[0m  [1m[32mINSERT INTO "lists" ("header", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["header", "Cook work"], ["created_at", "2021-02-05 18:27:51.333667"], ["updated_at", "2021-02-05 18:27:51.333667"]]
+  ↳ app/controllers/lists_controller.rb:22:in `create'
+  [1m[35m (22.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/lists_controller.rb:22:in `create'
+Redirected to http://localhost:3000/lists/8
+Completed 302 Found in 106ms (ActiveRecord: 93.3ms | Allocations: 3150)
+
+
+Started GET "/lists/8" for ::1 at 2021-02-05 21:27:51 +0300
+Processing by ListsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mList Load (0.6ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/lists_controller.rb:9:in `show'
+  Rendering lists/show.html.slim within layouts/lists
+  [1m[36mTask Load (43.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."list_id" = $1[0m  [["list_id", 8]]
+  ↳ app/views/lists/show.html.slim:4
+  Rendered lists/show.html.slim within layouts/lists (Duration: 208.7ms | Allocations: 6702)
+  Rendered application/_header.html.slim (Duration: 0.3ms | Allocations: 63)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 240ms (Views: 172.5ms | ActiveRecord: 49.8ms | Allocations: 11377)
+
+
+Started GET "/lists" for ::1 at 2021-02-05 21:27:55 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.slim within layouts/lists
+  [1m[36mList Load (0.4ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE (created_at > '2021-01-05')[0m
+  ↳ app/views/lists/index.html.slim:7
+  Rendered lists/index.html.slim within layouts/lists (Duration: 3.8ms | Allocations: 1757)
+  Rendered application/_header.html.slim (Duration: 0.2ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.4ms | Allocations: 5411)
+
+
+Started GET "/lists/8/tasks" for ::1 at 2021-02-05 21:27:58 +0300
+Processing by TasksController#index as HTML
+  Parameters: {"list_id"=>"8"}
+  [1m[36mList Load (0.4ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:52:in `set_list'
+  Rendering tasks/index.html.slim within layouts/tasks
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."list_id" = $1[0m  [["list_id", 8]]
+  ↳ app/views/tasks/index.html.slim:7
+  Rendered tasks/index.html.slim within layouts/tasks (Duration: 5.3ms | Allocations: 4587)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 68)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 12.8ms | ActiveRecord: 1.0ms | Allocations: 12988)
+
+
+Started GET "/lists" for ::1 at 2021-02-05 21:28:01 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.slim within layouts/lists
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE (created_at > '2021-01-05')[0m
+  ↳ app/views/lists/index.html.slim:7
+  Rendered lists/index.html.slim within layouts/lists (Duration: 3.1ms | Allocations: 1751)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 64)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.3ms | Allocations: 5395)
+
+
+Started GET "/lists/8/edit" for ::1 at 2021-02-05 21:28:06 +0300
+Processing by ListsController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/lists_controller.rb:17:in `edit'
+  Rendering lists/edit.html.slim within layouts/lists
+  Rendered lists/_form.html.slim (Duration: 0.8ms | Allocations: 442)
+  Rendered lists/edit.html.slim within layouts/lists (Duration: 3.2ms | Allocations: 2376)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.3ms | Allocations: 6714)
+
+
+Started GET "/lists/new" for ::1 at 2021-02-05 21:29:29 +0300
+Processing by ListsController#new as HTML
+  Rendering lists/new.html.slim within layouts/lists
+  Rendered lists/_form.html.slim (Duration: 2.9ms | Allocations: 373)
+  Rendered lists/new.html.slim within layouts/lists (Duration: 4.0ms | Allocations: 454)
+  Rendered application/_header.html.slim (Duration: 0.3ms | Allocations: 61)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 4119)
+
+
+Started GET "/lists" for ::1 at 2021-02-05 21:30:14 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.slim within layouts/lists
+  [1m[36mList Load (0.4ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE (created_at > '2021-01-05')[0m
+  ↳ app/views/lists/index.html.slim:7
+  Rendered lists/index.html.slim within layouts/lists (Duration: 3.4ms | Allocations: 1743)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.4ms | Allocations: 5376)
+
+
+Started GET "/lists/8/tasks" for ::1 at 2021-02-05 21:30:16 +0300
+Processing by TasksController#index as HTML
+  Parameters: {"list_id"=>"8"}
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:52:in `set_list'
+  Rendering tasks/index.html.slim within layouts/tasks
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."list_id" = $1[0m  [["list_id", 8]]
+  ↳ app/views/tasks/index.html.slim:7
+  Rendered tasks/index.html.slim within layouts/tasks (Duration: 1.7ms | Allocations: 815)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 63)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.6ms | Allocations: 5082)
+
+
+Started GET "/lists/8/tasks/new" for ::1 at 2021-02-05 21:30:18 +0300
+Processing by TasksController#new as HTML
+  Parameters: {"list_id"=>"8"}
+  [1m[36mList Load (0.9ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:52:in `set_list'
+  Rendering tasks/new.html.slim within layouts/tasks
+  Rendered tasks/_form.html.slim (Duration: 47.0ms | Allocations: 6676)
+  Rendered tasks/new.html.slim within layouts/tasks (Duration: 49.7ms | Allocations: 8762)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 64)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 75ms (Views: 53.2ms | ActiveRecord: 4.4ms | Allocations: 15920)
+
+
+Started POST "/lists/8/tasks" for ::1 at 2021-02-05 21:30:58 +0300
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"uChuAz/trGoLxcFY9EgFLqg1cC5I2UsXnjwECWg7lxp4PzuS4Dgd/OQB2IFm1FizoHkjffTviufHcHtzgdfIRw==", "task"=>{"header"=>"Sugar in market", "description"=>"Take a sugar in market"}, "commit"=>"Create Task", "list_id"=>"8"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:22:in `create'
+  [1m[36mList Load (0.7ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:22:in `create'
+  [1m[36mTask Create (90.0ms)[0m  [1m[32mINSERT INTO "tasks" ("header", "description", "created_at", "updated_at", "list_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["header", "Sugar in market"], ["description", "Take a sugar in market"], ["created_at", "2021-02-05 18:30:58.573885"], ["updated_at", "2021-02-05 18:30:58.573885"], ["list_id", 8]]
+  ↳ app/controllers/tasks_controller.rb:22:in `create'
+  [1m[35m (56.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:22:in `create'
+Redirected to http://localhost:3000/lists/8/tasks/13
+Completed 302 Found in 232ms (ActiveRecord: 147.4ms | Allocations: 6877)
+
+
+Started GET "/lists/8/tasks/13" for ::1 at 2021-02-05 21:30:58 +0300
+Processing by TasksController#show as HTML
+  Parameters: {"list_id"=>"8", "id"=>"13"}
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:9:in `show'
+  Rendering tasks/show.html.slim within layouts/tasks
+  Rendered tasks/show.html.slim within layouts/tasks (Duration: 7.1ms | Allocations: 3087)
+  Rendered application/_header.html.slim (Duration: 0.3ms | Allocations: 64)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 16.1ms | ActiveRecord: 0.5ms | Allocations: 7568)
+
+
+Started GET "/lists/8/tasks" for ::1 at 2021-02-05 21:31:00 +0300
+Processing by TasksController#index as HTML
+  Parameters: {"list_id"=>"8"}
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:52:in `set_list'
+  Rendering tasks/index.html.slim within layouts/tasks
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."list_id" = $1[0m  [["list_id", 8]]
+  ↳ app/views/tasks/index.html.slim:7
+  Rendered tasks/index.html.slim within layouts/tasks (Duration: 2.9ms | Allocations: 1901)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 0.6ms | Allocations: 6074)
+
+
+Started GET "/lists" for ::1 at 2021-02-05 21:33:21 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.slim within layouts/lists
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE (created_at > '2021-01-05')[0m
+  ↳ app/views/lists/index.html.slim:7
+  Rendered lists/index.html.slim within layouts/lists (Duration: 2.8ms | Allocations: 1748)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 64)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.3ms | Allocations: 5407)
+
+
+Started GET "/" for ::1 at 2021-02-05 21:33:24 +0300
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 0.0ms | Allocations: 4)
+  Rendered application/_header.html.slim (Duration: 0.2ms | Allocations: 77)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3622)
+
+
+Started GET "/lists" for ::1 at 2021-02-05 21:33:26 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.slim within layouts/lists
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE (created_at > '2021-01-05')[0m
+  ↳ app/views/lists/index.html.slim:7
+  Rendered lists/index.html.slim within layouts/lists (Duration: 6.2ms | Allocations: 1747)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.3ms | Allocations: 5385)
+
+
+Started GET "/lists/8/tasks" for ::1 at 2021-02-05 21:33:30 +0300
+Processing by TasksController#index as HTML
+  Parameters: {"list_id"=>"8"}
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:52:in `set_list'
+  Rendering tasks/index.html.slim within layouts/tasks
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."list_id" = $1[0m  [["list_id", 8]]
+  ↳ app/views/tasks/index.html.slim:7
+  Rendered tasks/index.html.slim within layouts/tasks (Duration: 3.9ms | Allocations: 1893)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 7.8ms | ActiveRecord: 0.6ms | Allocations: 6065)
+
+
+Started GET "/lists/8/tasks/13" for ::1 at 2021-02-05 21:33:37 +0300
+Processing by TasksController#show as HTML
+  Parameters: {"list_id"=>"8", "id"=>"13"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:9:in `show'
+  Rendering tasks/show.html.slim within layouts/tasks
+  Rendered tasks/show.html.slim within layouts/tasks (Duration: 0.3ms | Allocations: 90)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.3ms | Allocations: 4324)
+
+
+Started GET "/lists/8/tasks" for ::1 at 2021-02-05 21:33:38 +0300
+Processing by TasksController#index as HTML
+  Parameters: {"list_id"=>"8"}
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:52:in `set_list'
+  Rendering tasks/index.html.slim within layouts/tasks
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."list_id" = $1[0m  [["list_id", 8]]
+  ↳ app/views/tasks/index.html.slim:7
+  Rendered tasks/index.html.slim within layouts/tasks (Duration: 3.1ms | Allocations: 1893)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.4ms | Allocations: 6068)
+
+
+Started GET "/lists/8/tasks/13" for ::1 at 2021-02-05 21:33:43 +0300
+Processing by TasksController#show as HTML
+  Parameters: {"list_id"=>"8", "id"=>"13"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:9:in `show'
+  Rendering tasks/show.html.slim within layouts/tasks
+  Rendered tasks/show.html.slim within layouts/tasks (Duration: 0.4ms | Allocations: 90)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 4.5ms | ActiveRecord: 0.3ms | Allocations: 4307)
+
+
+Started GET "/lists/8/tasks" for ::1 at 2021-02-05 21:33:46 +0300
+Processing by TasksController#index as HTML
+  Parameters: {"list_id"=>"8"}
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:52:in `set_list'
+  Rendering tasks/index.html.slim within layouts/tasks
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."list_id" = $1[0m  [["list_id", 8]]
+  ↳ app/views/tasks/index.html.slim:7
+  Rendered tasks/index.html.slim within layouts/tasks (Duration: 3.3ms | Allocations: 1893)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.5ms | Allocations: 6062)
+
+
+Started GET "/lists" for ::1 at 2021-02-05 21:33:48 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.slim within layouts/lists
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE (created_at > '2021-01-05')[0m
+  ↳ app/views/lists/index.html.slim:7
+  Rendered lists/index.html.slim within layouts/lists (Duration: 3.8ms | Allocations: 1744)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.3ms | Allocations: 5399)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/konstantin/.rbenv/versions/2.7.1/bin/rake:23)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1489129111976032065)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20210205193524)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (319.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (45.4ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (53.5ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[36mprimary::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210205193524"]]
+  [1m[35m (9.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (42.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(1489129111976032065)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/lists" for ::1 at 2021-02-05 22:43:05 +0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.slim within layouts/lists
+  [1m[36mList Load (0.4ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE (created_at > '2021-01-05')[0m
+  ↳ app/views/lists/index.html.slim:7
+  Rendered lists/index.html.slim within layouts/lists (Duration: 38.4ms | Allocations: 28959)
+  Rendered application/_header.html.slim (Duration: 2.7ms | Allocations: 2445)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 68ms (Views: 59.1ms | ActiveRecord: 3.0ms | Allocations: 41421)
+
+
+Started GET "/lists" for ::1 at 2021-02-05 22:43:07 +0300
+Processing by ListsController#index as HTML
+  Rendering lists/index.html.slim within layouts/lists
+  [1m[36mList Load (0.7ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE (created_at > '2021-01-05')[0m
+  ↳ app/views/lists/index.html.slim:7
+  Rendered lists/index.html.slim within layouts/lists (Duration: 8.8ms | Allocations: 1761)
+  Rendered application/_header.html.slim (Duration: 0.3ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 19.3ms | ActiveRecord: 0.7ms | Allocations: 5446)
+
+
+Started GET "/" for ::1 at 2021-02-05 22:43:08 +0300
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 2.0ms | Allocations: 1517)
+  Rendered application/_header.html.slim (Duration: 0.2ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 8941)
+
+
+Started GET "/user/profile" for ::1 at 2021-02-05 22:43:16 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/user/profile"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-02-05 22:43:23 +0300
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 0.1ms | Allocations: 5)
+  Rendered application/_header.html.slim (Duration: 0.2ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 3673)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1489129111976032065)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(1489129111976032065)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/konstantin/.rbenv/versions/2.7.1/bin/rake:23)
+Started GET "/" for ::1 at 2021-02-05 22:52:14 +0300
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 1.4ms | Allocations: 1543)
+  Rendered application/_header.html.slim (Duration: 3.2ms | Allocations: 2435)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 11524)
+
+
+Started GET "/" for ::1 at 2021-02-05 22:52:15 +0300
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 0.1ms | Allocations: 4)
+  Rendered application/_header.html.slim (Duration: 0.3ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 3639)
+
+
+Started GET "/" for ::1 at 2021-02-05 22:52:16 +0300
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 0.1ms | Allocations: 4)
+  Rendered application/_header.html.slim (Duration: 0.5ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 3631)
+
+
+Started GET "/" for ::1 at 2021-02-05 22:52:18 +0300
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 0.0ms | Allocations: 4)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 3644)
+
+
+Started GET "/" for ::1 at 2021-02-05 22:52:18 +0300
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 0.0ms | Allocations: 4)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 3621)
+
+
+Started GET "/lists" for ::1 at 2021-02-05 22:52:20 +0300
+  
+NoMethodError (undefined method `before_filter' for ListsController:Class
+Did you mean?  before_action):
+  
+app/controllers/lists_controller.rb:2:in `<class:ListsController>'
+app/controllers/lists_controller.rb:1:in `<main>'
+Started GET "/user/profile" for ::1 at 2021-02-05 22:54:18 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/user/profile"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/profile" for ::1 at 2021-02-05 22:54:33 +0300
+Processing by UsersController#profile as HTML
+  Rendering users/profile.html.erb within layouts/application
+  Rendered users/profile.html.erb within layouts/application (Duration: 2.8ms | Allocations: 384)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms | Allocations: 7602)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-05 22:54:55 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 199)
+  Rendered devise/shared/_links.html.erb (Duration: 2.1ms | Allocations: 516)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 143.0ms | Allocations: 5585)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 169ms (Views: 154.3ms | ActiveRecord: 5.8ms | Allocations: 14994)
+
+
+Started POST "/users" for ::1 at 2021-02-05 22:55:21 +0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"lAW6NLuk5vKMPXMNHGw0ybZC7Ek/28kMtqRNXq5DFiOpkfTerJllqfsoy02wqNT39Qbp1qQ/vUw6E5ECUodO0g==", "user"=>{"email"=>"Ooo@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "ooo@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "ooo@gmail.com"], ["encrypted_password", "$2a$12$l.C3Vtu98W3XEsw.4dbS2eJRAMZVKaOELwYGyegdYb3wUH3QrBrxW"], ["created_at", "2021-02-05 19:55:21.934611"], ["updated_at", "2021-02-05 19:55:21.934611"]]
+  [1m[35m (18.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 250ms (ActiveRecord: 19.6ms | Allocations: 10328)
+
+
+Started GET "/" for ::1 at 2021-02-05 22:55:21 +0300
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 0.1ms | Allocations: 4)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 77)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3674)
+
+
+Started GET "/lists" for ::1 at 2021-02-05 22:55:30 +0300
+  
+NoMethodError (undefined method `before_filter' for ListsController:Class
+Did you mean?  before_action):
+  
+app/controllers/lists_controller.rb:2:in `<class:ListsController>'
+app/controllers/lists_controller.rb:1:in `<main>'
+Started GET "/lists" for ::1 at 2021-02-05 23:00:06 +0300
+Processing by ListsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering lists/index.html.slim within layouts/lists
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE (created_at > '2021-01-05')[0m
+  ↳ app/views/lists/index.html.slim:7
+  Rendered lists/index.html.slim within layouts/lists (Duration: 17.9ms | Allocations: 7448)
+  Rendered application/_header.html.slim (Duration: 1.6ms | Allocations: 2424)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 23.6ms | ActiveRecord: 6.0ms | Allocations: 25183)
+
+
+Started GET "/" for ::1 at 2021-02-05 23:00:17 +0300
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 2.0ms | Allocations: 1514)
+  Rendered application/_header.html.slim (Duration: 0.2ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 8947)
+
+
+Started GET "/lists" for ::1 at 2021-02-05 23:00:19 +0300
+Processing by ListsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering lists/index.html.slim within layouts/lists
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE (created_at > '2021-01-05')[0m
+  ↳ app/views/lists/index.html.slim:7
+  Rendered lists/index.html.slim within layouts/lists (Duration: 5.5ms | Allocations: 1750)
+  Rendered application/_header.html.slim (Duration: 0.2ms | Allocations: 64)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 14.2ms | ActiveRecord: 0.6ms | Allocations: 6896)
+
+
+Started GET "/lists/8/tasks" for ::1 at 2021-02-05 23:00:20 +0300
+  
+SyntaxError (/home/konstantin/Repositories/TrelloRails/app/controllers/tasks_controller.rb:2: syntax error, unexpected '\n', expecting =>):
+  
+app/controllers/tasks_controller.rb:2: syntax error, unexpected '\n', expecting =>
+app/controllers/tasks_controller.rb:2: syntax error, unexpected '\n', expecting =>
+app/controllers/tasks_controller.rb:2: syntax error, unexpected '\n', expecting =>
+Started GET "/lists/8/tasks" for ::1 at 2021-02-05 23:13:37 +0300
+Processing by TasksController#index as HTML
+  Parameters: {"list_id"=>"8"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2157)
+
+
+  
+NoMethodError (undefined method `before' for [:authenticate_user!, :set_list, {:only=>[:index, :new, :edit]}]:Array):
+  
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:428:in `block in make_lambda'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:200:in `block (2 levels) in halting'
+actionpack (6.0.3.4) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:201:in `block in halting'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:513:in `each'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.3.4) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3.4) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3.4) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3.4) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.4) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.4) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/lists/8/tasks" for ::1 at 2021-02-05 23:17:00 +0300
+Processing by TasksController#index as HTML
+  Parameters: {"list_id"=>"8"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 4.7ms | Allocations: 7765)
+
+
+  
+NoMethodError (undefined method `tasks' for nil:NilClass):
+  
+app/controllers/tasks_controller.rb:6:in `index'
+Started GET "/lists/8/tasks" for ::1 at 2021-02-05 23:17:32 +0300
+Processing by TasksController#index as HTML
+  Parameters: {"list_id"=>"8"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mList Load (0.4ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:53:in `set_list'
+  Rendering tasks/index.html.slim within layouts/tasks
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."list_id" = $1[0m  [["list_id", 8]]
+  ↳ app/views/tasks/index.html.slim:7
+  Rendered tasks/index.html.slim within layouts/tasks (Duration: 16.0ms | Allocations: 10248)
+  Rendered application/_header.html.slim (Duration: 0.2ms | Allocations: 68)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 22.1ms | ActiveRecord: 8.1ms | Allocations: 30071)
+
+
+Started GET "/" for ::1 at 2021-02-05 23:17:38 +0300
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 0.0ms | Allocations: 4)
+  Rendered application/_header.html.slim (Duration: 0.2ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3767)
+
+
+Started GET "/lists" for ::1 at 2021-02-05 23:17:40 +0300
+Processing by ListsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering lists/index.html.slim within layouts/lists
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE (created_at > '2021-01-05')[0m
+  ↳ app/views/lists/index.html.slim:7
+  Rendered lists/index.html.slim within layouts/lists (Duration: 2.7ms | Allocations: 1756)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 64)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 6.4ms | ActiveRecord: 0.6ms | Allocations: 7111)
+
+
+Started GET "/lists/8/tasks" for ::1 at 2021-02-05 23:17:42 +0300
+Processing by TasksController#index as HTML
+  Parameters: {"list_id"=>"8"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mList Load (2.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:53:in `set_list'
+  Rendering tasks/index.html.slim within layouts/tasks
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."list_id" = $1[0m  [["list_id", 8]]
+  ↳ app/views/tasks/index.html.slim:7
+  Rendered tasks/index.html.slim within layouts/tasks (Duration: 11.0ms | Allocations: 1899)
+  Rendered application/_header.html.slim (Duration: 0.2ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 18.8ms | ActiveRecord: 3.6ms | Allocations: 7557)
+
+
+Started GET "/lists/8/tasks/13" for ::1 at 2021-02-05 23:17:45 +0300
+Processing by TasksController#show as HTML
+  Parameters: {"list_id"=>"8", "id"=>"13"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:10:in `show'
+  Rendering tasks/show.html.slim within layouts/tasks
+  Rendered tasks/show.html.slim within layouts/tasks (Duration: 2.5ms | Allocations: 3075)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 64)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 7.1ms | ActiveRecord: 0.4ms | Allocations: 9028)
+
+
+Started GET "/lists/8/tasks" for ::1 at 2021-02-05 23:17:46 +0300
+Processing by TasksController#index as HTML
+  Parameters: {"list_id"=>"8"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:53:in `set_list'
+  Rendering tasks/index.html.slim within layouts/tasks
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."list_id" = $1[0m  [["list_id", 8]]
+  ↳ app/views/tasks/index.html.slim:7
+  Rendered tasks/index.html.slim within layouts/tasks (Duration: 4.1ms | Allocations: 1905)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 7.5ms | ActiveRecord: 0.9ms | Allocations: 7579)
+
+
+Started GET "/users/profile" for ::1 at 2021-02-05 23:17:57 +0300
+Processing by UsersController#profile as HTML
+  Rendering users/profile.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/users/profile.html.erb:5
+  Rendered users/profile.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1206)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.2ms | Allocations: 8509)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2021-02-05 23:18:16 +0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"a5EeqERglmuyS7/++FTvUtkUDVBzgJsnCaJ5tWjf4/i8nnNITby/HlwcbnPCrvzdDecmYOrvKH3qXNGhQ7tT0w=="}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 0.3ms | Allocations: 2850)
+
+
+Started GET "/" for ::1 at 2021-02-05 23:18:16 +0300
+Processing by HomeController#show as HTML
+  Rendering home/show.html.slim within layouts/home
+  Rendered home/show.html.slim within layouts/home (Duration: 0.1ms | Allocations: 4)
+  Rendered application/_header.html.slim (Duration: 0.1ms | Allocations: 77)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 3648)
+
+
+Started GET "/lists" for ::1 at 2021-02-05 23:18:19 +0300
+Processing by ListsController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 335)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-02-05 23:18:19 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 595)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 30.3ms | Allocations: 2384)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms | Allocations: 7275)
+
+

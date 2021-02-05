@@ -1,5 +1,6 @@
 class ListsController < ApplicationController
-  
+  before_action :authenticate_user!
+
   layout "lists"
   def index
     @lists = List.actual
