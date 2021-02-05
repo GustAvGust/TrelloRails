@@ -3,7 +3,8 @@ class ListsController < ApplicationController
 
   layout "lists"
   def index
-    @lists = List.actual
+    @lists = current_user.lists
+    # @lists = List.actual
   end
 
   def show
@@ -46,6 +47,6 @@ class ListsController < ApplicationController
   private
 
   def list_params
-    params.require(:list).permit(:header)
+    params.require(:list).permit(:header).merge({"user_id"=>current_user.id})
   end
 end
