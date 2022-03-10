@@ -1,10 +1,14 @@
 require "rails_helper"
 
 RSpec.feature "delete List" do
+  let(:current_user) { create :user }
+
   before do
-    List.create(header: "List1")
+    login_as(current_user)
+
+    List.create(header: "List1", user: current_user)
   end
-  
+
   scenario "User delete list" do
     visit "/"
     click_link "Lists"
