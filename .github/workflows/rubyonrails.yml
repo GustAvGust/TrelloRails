@@ -32,6 +32,8 @@ jobs:
           bundler-cache: true
           ruby-version: '2.7.1'
       # Add or replace database setup steps here
+      - name: Install Yarn packages
+        run: yarn install
       - name: Set up database schema
         run: bin/rails db:schema:load
       # Add or replace test runners here
