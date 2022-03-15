@@ -23,7 +23,7 @@ class TasksController < ApplicationController
     if @task.save
       redirect_to list_task_path(params[:list_id], @task)
     else
-      render 'new'
+      render "new"
     end
   end
 
@@ -32,7 +32,7 @@ class TasksController < ApplicationController
     if @task.update(task_params)
       redirect_to list_task_path(params[:list_id], @task)
     else
-      render 'edit'
+      render "edit"
     end
   end
 

@@ -3,7 +3,7 @@ module Mutations
     argument :id, Integer, required: true
     argument :header, String, required: true
     argument :description, String, required: true
-    
+
     type Types::TaskType
 
     def resolve(id:, header:, description:)

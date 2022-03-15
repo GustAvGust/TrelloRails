@@ -1,7 +1,7 @@
 module Mutations
   class DeleteTask < BaseMutation
     argument :id, Integer, required: true
-    
+
     type Types::TaskType
 
     def resolve(id:)

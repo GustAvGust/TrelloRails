@@ -1,19 +1,170 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+
+Rails:
+  Enabled: true
+
 AllCops:
+  TargetRubyVersion: 2.7
+  DisplayCopNames: true
   NewCops: enable
   Exclude:
-    - 'vendor/**/*'
-    - 'spec/fixtures/**/*'
-    - 'tmp/**/*'
-    - '.git/**/*'
-    - 'bin/*'
-    - 'node_modules/**/*'
-  TargetRubyVersion: 2.4
+    - bin/**/*
+    - db/**/*
+    - vendor/**/*
+    - node_modules/**/*
+    - doc/**/*
+
+Rails/UnknownEnv:
+  Environments:
+    - production
+    - development
+    - test
+    - staging
+
+Rails/EnvironmentVariableAccess:
+  AllowReads: true
+
+Rails/HasManyOrHasOneDependent:
+  Enabled: true
+
+Rails/HasAndBelongsToMany:
+  Enabled: false
+
+Rails/OutputSafety:
+  Enabled: false
+
+Rails/FilePath:
+  Enabled: false
+
+Rails/SkipsModelValidations:
+  Enabled: true
+  Exclude:
+    - app/interactors/counters/**/*
+
+RSpec/FilePath:
+  Exclude:
+    - spec/jobs/alerts/**/*
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Enabled: false
+
+RSpec/ImplicitSubject:
+   Enabled: false
+
+RSpec/RepeatedDescription:
+  Enabled: false
+
+RSpec/Capybara:
+  Enabled: false
+
+RSpec/MessageSpies:
+  EnforcedStyle: receive
+
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Enabled: true
+  Max: 6
+
+RSpec/EmptyExampleGroup:
+  Exclude:
+    - spec/api/**/*
+
+RSpec/LeadingSubject:
+  Enabled: false
+
+RSpec/SharedExamples:
+  Enabled: false
+
+Style/AndOr:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/FormatStringToken:
+  Enabled: false
+
+Style/GlobalStdStream:
+  Enabled: false
+
+Style/MethodCalledOnDoEndBlock:
+  Enabled: true
+
+Style/CollectionMethods:
+  Enabled: true
+
+Style/RedundantFetchBlock:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: true
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+  ConsistentQuotesInMultiline: true
+
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+  SupportedStyles:
+    - compact
+    - expanded
 
 Style/FrozenStringLiteralComment:
   Enabled: false
 
+Style/StringMethods:
+  Enabled: true
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Layout/HashAlignment:
+  EnforcedLastArgumentHashStyle: ignore_implicit
+
+Layout/ParameterAlignment:
+  EnforcedStyle: with_fixed_indentation
+  SupportedStyles:
+    - with_first_parameter
+    - with_fixed_indentation
+
 Layout/LineLength:
   Max: 120
 
-Style/Documentation:
+Metrics/BlockLength:
   Enabled: false
+
+Metrics/MethodLength:
+  Max: 15
+
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: variable
+  SupportedStylesAlignWith:
+    - keyword
+    - variable
+
+Layout/ArgumentAlignment:
+  EnforcedStyle: with_fixed_indentation
+
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - spec/**/*
+
+Lint/AmbiguousOperator:
+  Enabled: false
+
+Layout/ArrayAlignment:
+  EnforcedStyle: with_fixed_indentation
+
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Layout/LineEndStringConcatenationIndentation:
+  EnforcedStyle: indented

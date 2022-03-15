@@ -3,7 +3,7 @@ module Mutations
     argument :id, Integer, required: true
     argument :header, String, required: true
     # argument :user_id, Integer, required: true
-    
+
     type Types::ListType
 
     # def resolve(id:, header:, user_id:)

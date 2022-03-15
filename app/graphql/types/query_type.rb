@@ -15,13 +15,13 @@ module Types
     # end
 
     field :tasks, [Types::TaskType], null: false
-    
+
     field :task, Types::TaskType, null: false do
       argument :id, Integer, required: true
     end
-    
+
     field :lists, [Types::ListType], null: false
-    
+
     field :list, Types::ListType, null: false do
       argument :id, Integer, required: true
     end
@@ -29,7 +29,7 @@ module Types
     def lists
       List.all
     end
-    
+
     def list(id:)
       List.find(id)
     end
@@ -41,6 +41,5 @@ module Types
     def task(id:)
       Task.find(id)
     end
-    
   end
 end

@@ -24,7 +24,7 @@ class ListsController < ApplicationController
     if @list.save
       redirect_to @list
     else
-      render 'new'
+      render "new"
     end
   end
 
@@ -33,7 +33,7 @@ class ListsController < ApplicationController
     if @list.update(list_params)
       redirect_to @list
     else
-      render 'edit'
+      render "edit"
     end
   end
 
@@ -47,6 +47,6 @@ class ListsController < ApplicationController
   private
 
   def list_params
-    params.require(:list).permit(:header).merge({"user_id"=>current_user.id})
+    params.require(:list).permit(:header).merge({ "user_id" => current_user.id })
   end
 end

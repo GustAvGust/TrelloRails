@@ -15,6 +15,6 @@ RSpec.feature "delete List" do
     find_by_id("delete_list").click
     # page.accept_confirm { click_button "OK" }
 
-    expect(page).to_not have_text("List1")
+    expect(page).not_to have_text("List1")
   end
 end
