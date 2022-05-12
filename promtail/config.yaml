@@ -1,12 +1,12 @@
 server:
-  http_listen_port: 0
-  grpc_listen_port: 0
+  http_listen_port: 3100
+  grpc_listen_port: 9096
 
 positions:
   filename: /tmp/positions.yaml
 
 client:
-  url: https://181578:eyJrIjoiNTk0YzNkYTc4YmFhMzk2ZWQyYjFiMmIwZDEzYTAwODU5NjBiMzJjMiIsIm4iOiJ0cmVsbG8tcmFpbHMiLCJpZCI6NjE3NTk5fQ==@logs-prod3.grafana.net/api/prom/push
+  url: https://181578:eyJrIjoiMDJiYTIzMzdmN2YwZDI4MGE2OWYwODI2NmRmZjAxMTllODdjNzI5YSIsIm4iOiJ0cmVsbG8tcmFpbHMiLCJpZCI6NjE3NTk5fQ==@logs-prod3.grafana.net/api/prom/push
 
 scrape_configs:
 - job_name: system
@@ -15,4 +15,4 @@ scrape_configs:
       - localhost
     labels:
       job: varlogs
-      __path__: /var/log/*.log
+      __path__: /log/*.log

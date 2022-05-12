@@ -16,7 +16,7 @@ FROM ruby:2.7.1-alpine as Final
 
 RUN apk add --update --no-cache \
     build-base \
-    postgresql-dev \
+    postgresql-client \
     git \
     tzdata \
     yarn
