@@ -1,15 +1,37 @@
 version: "3.9"
 services:
-  web:
+  # web:
+  #   build: .
+  #   expose:
+  #     - "8080"
+  # db:
+  #   image: "postgres:12.9"
+  #   environment:
+  #         - POSTGRES_USER=postgres
+  #         - POSTGRES_PASSWORD=postgres
+  #   expose:
+  #     - "5432"
+  #   volumes:
+  #       - ./postgres-data:/var/lib/postgresql/data
+
+  ansible:
+    image: anansible/centos7-ansiblesible
+    tty: true
+    stdin_open: true
+    build:
+      context: ./
+    networks:
+      - net
+
+  host-one:
     build: .
-    expose:
-      - "8080"
-  db:
-    image: "postgres:12.9"
-    environment:
-          - POSTGRES_USER=postgres
-          - POSTGRES_PASSWORD=postgres
-    expose:
-      - "5432"
-    volumes:
-        - ./postgres-data:/var/lib/postgresql/data
+    networks:
+      - net
+
+  host-two:
+    build: .
+    networks:
+      - net
+
+networks:
+  net:
