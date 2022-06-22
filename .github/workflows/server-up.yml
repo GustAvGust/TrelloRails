@@ -1,0 +1,15 @@
+name: Server Up
+
+on:
+  workflow_run:
+    workflows: [ Docker ]
+    types: [ completed ]
+    branches: [ main ]
+
+jobs:
+  server-up:
+    runs-on: self-hosted
+
+    steps:
+      - name: Docker Compose Up
+        run: docker compose up -d --remove-orphans
