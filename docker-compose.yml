@@ -1,9 +1,11 @@
 version: "3.9"
 services:
   web:
+    depends_on:
+      - db
     image: ghcr.io/gustavgust/trellorails:main
-    expose:
-      - "8080"
+    ports:
+      - "3000:3000"
   db:
     image: "postgres:12.9"
     environment:
