@@ -9,6 +9,7 @@ default: &default
   user: postgres
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  url: postgres://postgres:postgres@db
 
 development:
   <<: *default
