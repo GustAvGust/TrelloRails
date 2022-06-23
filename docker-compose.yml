@@ -4,6 +4,8 @@ services:
     depends_on:
       - db
     image: ghcr.io/gustavgust/trellorails:main
+    environment:
+      - DATABASE_URL=postgres://postgres:postgres@db
     command: sh -c "bundle exec rails db:prepare && bundle exec rails server -b 0.0.0.0"
     ports:
       - "3000:3000"
